@@ -21,7 +21,7 @@ body {
 
 /* first sub container */
 .primary-container {
-  height: 92vh;
+  /* height: 92vh; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -76,6 +76,7 @@ body {
   font-size: 16px;
   margin: 30px 0;
   cursor: pointer;
+  overflow: none;
 }
 .button-div button:hover {
   background-color: #c88676;
@@ -233,7 +234,7 @@ label {
   text-align: center;
   color: gray;
   margin: 5vh 2.5vw;
-  font-size: 20px;
+  font-size: 18px;
   overflow: hidden;
   font-weight: 300;
   line-height: 1.5;
@@ -285,7 +286,7 @@ label {
   justify-content: center;
   color: white;
   font-weight: 300;
-  padding: 3vh;
+  padding: 1rem;
 }
 
 .container-two-secondary {
@@ -435,6 +436,12 @@ label {
   .container-two-primary div ul li a {
     font-size: 20px;
   }
+  /* jkjknkj */
+  /* .container-two-content {
+    font-size: 2px;
+    background-color: aqua;
+  } */
+  /* njknkjnjk */
   .object-three {
     top: 60%;
     right: -12vh;
@@ -469,9 +476,9 @@ label {
   .container-two-primary p {
     font-size: 2rem;
   }
-  .container-two-primary div ul li a {
+  /* .container-two-primary div ul li a {
     font-size: 2rem;
-  }
+  } */
   .copyright {
     font-size: 1rem;
   }
