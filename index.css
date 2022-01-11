@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Mono:wght@300&family=Roboto:wght@100;300;400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  background-color: #171616;
+  font-family: "Poppins", sans-serif;
+}
+
+/* First container */
+
+.container-one {
+  position: relative;
+  overflow: visible;
+}
+
+/* first sub container */
+.primary-container {
+  height: 92vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.object-one {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  height: 150px;
+  width: 150px;
+  z-index: -2;
+}
+
+.logo {
+  margin-top: 20px;
+  height: 100px;
+  width: 170px;
+}
+.heading {
+  color: white;
+  text-align: center;
+  padding: 5vh 0 5vh;
+  font-size: 44px;
+  font-weight: 500;
+}
+.primary-container p {
+  overflow-y: hidden;
+  text-align: center;
+  font-size: 27px;
+  color: gray;
+  margin: 0 3vw 0px 3vw;
+  padding: 0 1vw;
+  font-weight: 300;
+}
+.primary-container div {
+  overflow: hidden;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+.button-div button {
+  text-align: center;
+  width: 200px;
+  background-color: #171616;
+  color: #c88676;
+  border: 1px solid #c88676;
+  border-radius: 7px;
+  padding: 17px 0;
+  font-size: 16px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.button-div button:hover {
+  background-color: #c88676;
+  color: white;
+  border: 1px solid #c88676;
+}
+.launching-in {
+  padding: 5vh 0 3vh;
+  text-align: center;
+  color: grey;
+  font-size: 32.5px;
+  font-weight: 400;
+}
+#demo {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  z-index: 5;
+  font-weight: 300;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  display: none;
+}
+.bg-modal-2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 100vh;
+  z-index: 10;
+  display: none;
+}
+.modal-content {
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(
+    90deg,
+    #353e5b,
+    #393f5d,
+    #434362,
+    #544969,
+    #684f70,
+    #7e5775,
+    #945f77,
+    #a76978,
+    #b67378,
+    #c07d77,
+    #c68376,
+    #c88676
+  );
+  border-radius: 7px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+input {
+  border: none;
+  border-radius: 7px;
+  width: 80%;
+  height: 40px;
+  padding: 7px 15px;
+  display: block;
+  margin: 20px auto;
+}
+label {
+  display: block;
+  color: white;
+  padding: 10px 0 5px;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: white;
+  color: #353e5b;
+  border: none;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 40px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  color: white;
+}
+
+/* Second sub container */
+
+.secondary-container {
+  margin-top: 10vh;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+}
+
+.secondary-container div {
+  width: 100%;
+  margin: 2px 3vw;
+}
+
+.cover-img-1 {
+  height: 100%;
+  width: 95%;
+  object-fit: cover;
+}
+.object-two {
+  position: absolute;
+  top: -90px;
+  left: 3vw;
+  height: 180px;
+  width: 180px;
+}
+
+/* Second container */
+
+.container-two {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-two-primary div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.container-two-primary div h1 {
+  color: white;
+  margin: 5vh 0;
+  overflow: hidden;
+  font-size: 35px;
+}
+.container-two-primary div hr {
+  border: 1px solid#C88676;
+  width: 110px;
+  align-self: center;
+}
+.container-two-primary p {
+  text-align: center;
+  color: gray;
+  margin: 5vh 2.5vw;
+  font-size: 20px;
+  overflow: hidden;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.container-two-primary div ul {
+  list-style: none;
+  margin: 5vh 2.5vw;
+}
+.container-two-primary div ul li {
+  display: flex;
+  justify-content: center;
+}
+.container-two-primary div ul li a {
+  color: gray;
+  font-size: 20px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-weight: 300;
+}
+.container-two-primary div ul li a:hover {
+  color: white;
+}
+
+.test {
+  overflow: visible;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.test div {
+  width: 100%;
+  margin: 0 0 0 7px;
+}
+
+.cover-img-2 {
+  height: 100%;
+  width: 95%;
+}
+.object-three {
+  position: absolute;
+  top: -115px;
+  right: -60px;
+  height: 200px;
+  width: 200px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 300;
+  padding: 3vh;
+}
+
+.container-two-secondary {
+  margin-top: 7vh;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+}
+.container-two-secondary div {
+  width: 100%;
+  margin: 2px 3vw;
+}
+.container-two-web {
+  display: none;
+}
+
+/* For Medium sized screens */
+
+@media only screen and (min-width: 700px) {
+  .heading {
+    font-size: 50px;
+  }
+  .object-one {
+    height: 200px;
+    width: 200px;
+  }
+  .object-two {
+    height: 230px;
+    width: 230px;
+  }
+  .object-three {
+    height: 250px;
+    width: 250px;
+    top: -145px;
+  }
+  #demo {
+    font-size: 42px;
+    font-weight: 300;
+  }
+  .primary-container div p {
+    font-size: 30px;
+    margin: 1vw 3vw;
+  }
+  .container-two-primary div h1 {
+    font-size: 40px;
+  }
+  .container-two div p {
+    font-size: 25px;
+  }
+  .container-two-primary div ul li a {
+    font-size: 25px;
+  }
+}
+
+/* For Desktop */
+
+@media only screen and (min-width: 1050px) {
+  .container-two {
+    display: none;
+  }
+  .container-one {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .primary-container {
+    padding-left: 2vw;
+  }
+  .logo {
+    position: relative;
+    left: -20px;
+  }
+  .heading {
+    text-align: left;
+    font-size: 50px;
+    padding: 7vh 0 3vh;
+    position: relative;
+    z-index: 5;
+  }
+  .primary-container div p {
+    text-align: left;
+    margin: 0;
+    padding: 0 15% 2vh 0;
+    font-size: 23px;
+  }
+  .button-div {
+    justify-content: flex-start;
+  }
+  .primary-container h2 {
+    text-align: left;
+  }
+
+  .secondary-container {
+    margin: 2vh;
+  }
+  .secondary-container div {
+    margin-top: 0px;
+    height: 96vh;
+    width: 92%;
+    background-image: url("./Assets/cover-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cover-img-1 {
+    display: none;
+  }
+  .object-one {
+    top: 7vh;
+    right: 51%;
+    height: 220px;
+    width: 220px;
+  }
+  .object-two {
+    position: absolute;
+    top: 84vh;
+    left: 10%;
+  }
+
+  .container-two-web {
+    padding-top: 5vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .test div img {
+    overflow: hidden;
+  }
+  .container-two-primary {
+    overflow: hidden;
+  }
+  .container-two-primary div {
+    justify-content: flex-start;
+  }
+  .container-two-primary p {
+    text-align: left;
+    margin: 5vh 2.5vw 2vw 0;
+  }
+  .container-two-primary div ul {
+    text-align: left;
+    margin: 5vh 2.5vw 0vw 0;
+  }
+  .container-two-primary div ul li {
+    justify-content: flex-start;
+  }
+  .container-two-primary div ul li a {
+    font-size: 20px;
+  }
+  .object-three {
+    top: 60%;
+    right: -12vh;
+    z-index: 6;
+    height: 250px;
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .heading {
+    font-size: 80px;
+  }
+  .object-one {
+    height: 300px;
+    width: 300px;
+  }
+  .object-two {
+    height: 350px;
+    width: 350px;
+  }
+  .object-three {
+    height: 350px;
+    width: 350px;
+    right: -10vh;
+  }
+  #demo {
+    font-size: 70px;
+  }
+  .primary-container div p {
+    font-size: 2rem;
+  }
+  .container-two-primary p {
+    font-size: 2rem;
+  }
+  .container-two-primary div ul li a {
+    font-size: 2rem;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
+}
