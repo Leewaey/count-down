@@ -42,6 +42,15 @@ body {
   height: 100px;
   width: 170px;
 }
+
+.logo-new {
+  width: 30%;
+}
+
+.text-white {
+  color: #ffffff!important;
+}
+
 .heading {
   color: white;
   text-align: center;
@@ -282,7 +291,7 @@ label {
   width: 200px;
 }
 .copyright {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   color: white;
   font-weight: 300;
@@ -483,3 +492,9 @@ label {
     font-size: 1rem;
   }
 }
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
